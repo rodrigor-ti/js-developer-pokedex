@@ -21,11 +21,9 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
-
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                      url('./assets/images/background.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/images/background.jpg'); /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
