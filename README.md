@@ -29,4 +29,4 @@ A Pokédex é uma enciclopédia virtual que reúne todas as espécies de Pokémo
 -   `Pokemon-model.js`, `poke-api.js`, `main.js`.
 
 ## Encontre seu Pokémom 🎮🕹️
-<a href="https://rodrigor-ti.github.io/js-desenvolvedor-pokedex/" target="_blank">Clique aqui para acessar a Pokédex e se divirta</a>
+<a href="https://rodrigor-ti.github.io/js-developer-pokedex/" target="_blank">Clique aqui para acessar a Pokédex e se divirta</a>
