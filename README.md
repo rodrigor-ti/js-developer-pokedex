@@ -6,7 +6,7 @@ Este é um projeto web com uma implementação simples de uma Pokédex, constru�
 
 A Pokédex é uma enciclopédia virtual que reúne todas as espécies de Pokémon. No jogo, ela funciona como um dispositivo que registra as espécies encontradas pelo usuário e fornece descrições sobre elas
 
-![image](https://raw.githubusercontent.com/rodrigor-ti/jogoMemoria/refs/heads/main/src/images/jogo%20da%20memoria.jpg)
+![image](https://raw.githubusercontent.com/rodrigor-ti/js-developer-pokedex/refs/heads/main/assets/images/pokedex.jpg)
 
 ## Tecnologias Utilizadas 🎯💻
 
@@ -14,7 +14,7 @@ A Pokédex é uma enciclopédia virtual que reúne todas as espécies de Pokémo
 -   **CSS**: Design responsivo e estilização usando um tema moderno e minimalista, com suporte a fontes externas (Roboto) e a biblioteca Normalize.css para garantir consistência entre diferentes navegadores.
 -   **JavaScript**: Manipulação da DOM, integração com a PokéAPI e implementação da funcionalidade de carregamento dinâmico de Pokémons.
 
-![image](https://raw.githubusercontent.com/rodrigor-ti/jogoMemoria/refs/heads/main/src/images/jogo%20da%20memoria.jpg)
+![image](https://raw.githubusercontent.com/rodrigor-ti/js-developer-pokedex/refs/heads/main/assets/images/pokedexdetalhes.jpg)
 
 ## Funcionalidades 🎯💻
 
