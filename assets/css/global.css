@@ -5,14 +5,35 @@
 
 body {
     background-color: #f6f8fc;
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/images/background.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixa a imagem para evitar cortes */
+
 }
+
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
+
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                      url('/assets/images/background.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
+
+
 
 @media screen and (min-width: 992px) {
     .content {

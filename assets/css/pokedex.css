@@ -1,3 +1,9 @@
+.content h1 {
+    margin-left: 0.5rem;
+    color: #fff;
+    text-align: center;
+}
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -7,11 +13,11 @@
 }
 
 .normal {
-    background-color: #a6a877;
+    background-color: #929DA3;
 }
 
 .grass {
-    background-color: #77c850;
+    background-color: #63BC5A;
 }
 
 .fire {
@@ -78,6 +84,14 @@
     background-color: #f9aec7;
 }
 
+.pokemons{
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -120,11 +134,15 @@
     border-radius: 1rem;
     filter: brightness(1.1);
     text-align: center;
+    text-transform: capitalize;
+    filter: brightness(0.92);
 }
 
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
+    align-self: flex-end;
+    filter: drop-shadow(1px 1px 3px black);
 }
 
 .pagination {
@@ -144,6 +162,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
@@ -163,3 +182,36 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+/*
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #1129dd;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+*/
+
+
+
+footer {
+    margin: 30px auto 0; /* Margem superior de 30px, auto para centralizar */
+    padding: 0;
+    text-align: center;
+    font-size: .625rem;
+    line-height: 2;
+    color: #fff;
+    background-color: #339bf0;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: block; /* Faz o elemento ocupar 100% da largura disponível */
+    width: max-content; /* Ajusta a largura ao conteúdo */
+}
+
